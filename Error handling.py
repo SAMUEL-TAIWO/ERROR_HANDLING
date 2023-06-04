@@ -65,7 +65,7 @@ except ZeroDivisionError:
 if not errorflag:
     print("This message only displays if there is no error")
 
-#is there any code in our program that can give us an error at runtime?
+# #is there any code in our program that can give us an error at runtime?
 #How do you know what errors will be raised?
 #1)you can test it yourself and when an error occurs,use the sys.exc_info() to get the name of error
 #There is a list of standard python errors:
